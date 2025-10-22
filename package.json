@@ -59,6 +59,6 @@
       },
       "scripts": {
             "dev": "vite",
-            "build": "npx vite build"
+            "build": "rm -rf node_modules/.vite && vite build"
       }
 }
