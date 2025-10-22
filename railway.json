@@ -1,0 +1,10 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "caddy run --config /Caddyfile --adapter caddyfile 2>&1",
+    "staticPublishPath": "dist"
+  }
+}
